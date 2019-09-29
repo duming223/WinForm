@@ -191,5 +191,11 @@ namespace WindowsFormsApp1
                 }
             }
         }
+
+        private void 登录_Click(object sender, EventArgs e)
+        {
+            Form4 form4 = new Form4();
+            form4.Show();
+        }
     }
 }

@@ -62,6 +62,7 @@
             this.RedactSex = new System.Windows.Forms.Label();
             this.RedactTxtName = new System.Windows.Forms.TextBox();
             this.RedactName = new System.Windows.Forms.Label();
+            this.登录 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.添加.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -231,6 +232,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.登录);
             this.groupBox2.Controls.Add(this.Update);
             this.groupBox2.Controls.Add(this.Delete);
             this.groupBox2.Controls.Add(this.LabeID);
@@ -407,6 +409,16 @@
             this.RedactName.TabIndex = 12;
             this.RedactName.Text = "姓名";
             // 
+            // 登录
+            // 
+            this.登录.Location = new System.Drawing.Point(568, 22);
+            this.登录.Name = "登录";
+            this.登录.Size = new System.Drawing.Size(101, 34);
+            this.登录.TabIndex = 29;
+            this.登录.Text = "登录";
+            this.登录.UseVisualStyleBackColor = true;
+            this.登录.Click += new System.EventHandler(this.登录_Click);
+            // 
             // Crud
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
@@ -465,6 +477,7 @@
         private System.Windows.Forms.Button Delete;
         private System.Windows.Forms.Label LabeID;
         private System.Windows.Forms.Button Add;
+        private System.Windows.Forms.Button 登录;
     }
 }
 
